@@ -27,9 +27,3 @@ public class Estudiante extends Persona implements Cansado{ //solo puedes hereda
 	
 }
 
-//MODIFICADORES
-	//public: clase, paquete, subclase, world
-	//protected: se puede acceder desde la clase, paquete y subclase. No desde world.
-	//no modif : se puede acceder desde clase y paquete. No se accede desde subclase
-	//private : solo se accede desde la  propia clase.
-		//atrubutos suelen ser private
