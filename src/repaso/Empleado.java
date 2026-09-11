@@ -1,0 +1,17 @@
+package repaso;
+
+public class Empleado extends Persona implements Cansado{
+
+	public Empleado(String nombre) {
+		super(nombre);
+	}
+	
+	public int calcularSalario() {
+		return 0;
+	}
+
+	@Override //debe implementar el metodo implementado por la interfaz Cansado
+	public void descansar() {
+		System.out.println("zzzzz");		
+	}
+}
